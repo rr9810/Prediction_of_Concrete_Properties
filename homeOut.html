@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="..\static\css\homes.css">
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <div class="button-container">
+        <div class="button-item">
+            <img src="../static/assets/img/conc.jpg" alt="Compressive Strength Machine">
+            <button onclick="location.href='concrete';">Page 1</button>
+        </div>
+        <div class="button-item">
+            <img src="image2.jpg" alt="Description of Image 2">
+            <button onclick="location.href='high-concrete';">Page 2</button>
+        </div>
+        <div class="button-item">
+            <img src="image3.jpg" alt="Description of Image 3">
+            <button onclick="location.href='slump';">Page 3</button>
+        </div>
+        <div class="button-item">
+            <img src="image4.jpg" alt="Description of Image 3">
+            <button onclick="location.href='reverse';">Page 4</button>
+        </div>
+    </div>
+
+    <script>var loading = document.getElementById("loading");
+    
+    window.addEventListener("load",function(){
+        loading.style.display="none"
+    })
+    </script>
+</body>
+</html>
